@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Github\\YJK23333\\ThreadPoolProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1233C73D-8AF5-456C-8ECF-4D3CE8CC47C6}|Origin\\Origin.vcxproj|F:\\Github\\YJK23333\\ThreadPoolProject\\Origin\\threadpool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1233C73D-8AF5-456C-8ECF-4D3CE8CC47C6}|Origin\\Origin.vcxproj|solutionrelative:Origin\\threadpool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1233C73D-8AF5-456C-8ECF-4D3CE8CC47C6}|Origin\\Origin.vcxproj|F:\\Github\\YJK23333\\ThreadPoolProject\\Origin\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1233C73D-8AF5-456C-8ECF-4D3CE8CC47C6}|Origin\\Origin.vcxproj|solutionrelative:Origin\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1233C73D-8AF5-456C-8ECF-4D3CE8CC47C6}|Origin\\Origin.vcxproj|F:\\Github\\YJK23333\\ThreadPoolProject\\Origin\\threadpool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1233C73D-8AF5-456C-8ECF-4D3CE8CC47C6}|Origin\\Origin.vcxproj|solutionrelative:Origin\\threadpool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 542,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "threadpool.cpp",
+              "DocumentMoniker": "F:\\Github\\YJK23333\\ThreadPoolProject\\Origin\\threadpool.cpp",
+              "RelativeDocumentMoniker": "Origin\\threadpool.cpp",
+              "ToolTip": "F:\\Github\\YJK23333\\ThreadPoolProject\\Origin\\threadpool.cpp",
+              "RelativeToolTip": "Origin\\threadpool.cpp",
+              "ViewState": "AQIAAPsAAAAAAAAAAAAkwBQBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-17T08:49:27.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "threadpool.h",
+              "DocumentMoniker": "F:\\Github\\YJK23333\\ThreadPoolProject\\Origin\\threadpool.h",
+              "RelativeDocumentMoniker": "Origin\\threadpool.h",
+              "ToolTip": "F:\\Github\\YJK23333\\ThreadPoolProject\\Origin\\threadpool.h",
+              "RelativeToolTip": "Origin\\threadpool.h",
+              "ViewState": "AQIAALcAAAAAAAAAAAAkwNUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-17T08:48:22.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "F:\\Github\\YJK23333\\ThreadPoolProject\\Origin\\Main.cpp",
+              "RelativeDocumentMoniker": "Origin\\Main.cpp",
+              "ToolTip": "F:\\Github\\YJK23333\\ThreadPoolProject\\Origin\\Main.cpp",
+              "RelativeToolTip": "Origin\\Main.cpp",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAkwGYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-17T08:48:05.196Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
