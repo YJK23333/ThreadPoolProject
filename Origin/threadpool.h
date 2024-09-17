@@ -55,7 +55,7 @@ private:
 
 private:
 	std::unique_ptr<Base> base_;
-
+	
 };
 
 
