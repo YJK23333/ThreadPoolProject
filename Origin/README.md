@@ -23,20 +23,29 @@ In `main` function, Firstly, define a threadpool named pool, set it to the `MODE
 ###### In private member, it use template class to remember datas and use a `Base` smart pointer to point datas.
 
 ### Class `Semaphore`:
-###### Include 2 member functions and 3 member variables.
+###### Include 2 member functions `wait()` notice the `mtx_` lock it and wait for its over, `post()` notify all thread this task is locked.
+
+###### The 3 member variables include `resLimit_` memory the most biggest number it could have. `mutex mtx_` define the lock make sure it won't have a deadlock or make more than one thread work for the same task. `condition_variable` is a could give other thread a notice about wait and post.
 
 
 ### Class `Task`:
+###### Include two member functions, `exec()` for use task which user need and `setResult()` gives `Result` class a interface to construct its own `Task` member. It also have a virtual member function `run()` gives user a interface to achieve own task through polymorphic.
+
+###### A `Result` class member variable to memory task's result.
 
 
 ### Class `Result`:
+###### Constructor receive a `Task` object pointer and a `atomic_bool` variable. Member function `setVal()` updates result data and use semaphore to post the information. Last member function `get()` gives `Any` class's `cast_` function a interface.
+
+###### Four private member including `Any` object to memory data, `Semaphore` to post informations about status, `Task` pointer to point this result's task, besides pointer avoid the situation that two class both include the other one which could case a deadlock, `atomic_bool` to memory it could be use or not.
 
 
 ### Class `Thread`:
+###### 
 
 
 ### Class `ThreadPool`:
-
+######
         
 
 
