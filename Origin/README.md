@@ -41,14 +41,21 @@ In `main` function, Firstly, define a threadpool named pool, set it to the `MODE
 
 
 ### Class `Thread`:
-###### 
+###### Include a constrcutor get a function and initialize `func_`, member function `start()` create a thread and make it run alone, member function `getId()` to return this thread's id number.
 
+###### Include `ThreadFunc` object which means a encapsulate of function, `generateId_` for whole thread pool' id number, and `threadId_` for this thread's id number.
 
 ### Class `ThreadPool`:
-######
-        
+###### For public member function, Thread Pool have `setMode()`,this could change thread pool's mode between fixed and cached; `setTaskQueMaxThreshHold()`, this could set the Task queue's upper number limit ;`setThreadSizeThreshHold()` is set Thread Pool's size in cached mode; `submitTask()` is submit tasks to thread pool; `start()` is used to activate the thread pool; finally, delete copy constructor and assignment constructor.
 
+###### For private member function, Thread Pool have `threadFunc()` spend task from task queue, and `checkRunningState()` for check out if this thread pool is running or not.
+        
+###### For member variables, `initThreadSize_` memory initialized thread pool size. `threadSizeThreshHold_` memory thread pool's thread number upper limit. `curThreadSize_` memory thread pool's now thread total number. `idleThreadSize_` memory thread pool's unused thread number. `taskQue_` is the task queue, record task's information. `taskSize_` is the number of tasks. `taskQueMaxThreshHold_` is the upper number limit of task queue. `taskQueMtx_` is the mutex of task queue. `notFull_` means task queue is not full or full. `notEmpty_` means task queue is not empty or empty. `exitCond_` means all thread resource is recovered. `poolMode_` is now thread pool's mode. `isPoolRunning_` means if this thread pool is running or not. 
 
 
 ## 3.threadpool.cpp
 ##### Here is how to achieve the functions.
+
+
+
+
